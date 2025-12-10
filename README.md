@@ -1,48 +1,56 @@
-# proiect-PG-scena
+# Interactive 3D Scene (OpenGL)
 
-Acest proiect este o scenă 3D interactivă creată cu OpenGL, având un peisaj natural relaxant, iluminare realistă și câteva efecte speciale.
+This project is an interactive 3D scene created using OpenGL. It features a relaxing natural landscape, realistic lighting, and various special effects.
 
-Am realizat un spațiu verde 3D, gândit pentru relaxare, care include:
-O cabană mică, cu o canapea, TV, masă de sticlă și lămpi ambientale.
-O pădure de brazi, felinare și flori pentru un decor natural.
-Un lac cu rățuște și alte elemente de detaliu.
-Un câine animat, care se plimbă prin jurul cabanei.
-Un mod de noapte, cu iluminare specifică.
+## Overview
 
-Scena poate fi explorată liber, iar utilizatorul poate schimba diferite setări grafice pentru a experimenta diferite stiluri de randare.
+I created a 3D environment designed for relaxation, which includes:
+* **A small cabin** detailed with a sofa, TV, glass table, and ambient lamps.
+* **A pine forest**, lanterns, and flowers to create a natural setting.
+* **A lake** populated with ducks and other detailed elements.
+* **An animated dog** that walks around the cabin.
+* **Night Mode** with specific lighting conditions.
 
-Funcționalități
-Lumini avansate – iluminare direcțională (soare), punctiformă (felinare, lămpi).
-Efecte speciale – ceață dinamică pentru atmosferă realistă.
-Animații – câinele care se mișcă și o cameră animată pentru tur ghidat.
-Moduri de randare – solid, wireframe, poligonal, smooth.
-Zi/Noapte – simulare a ciclului de zi și noapte.
+The scene can be explored freely, and the user can toggle various graphics settings to experience different rendering styles.
 
-Cum te plimbi prin scenă?
-W/S/A/D – deplasare înainte/înapoi/stânga/dreapta.
-U/I – mișcare pe verticală.
-Q/E – rotire a camerei.
-N – activează/dezactivează modul de noapte.
-F/G – crește/scade ceața.
-1 – activează luminile punctiforme.
-P/O/K/L – schimbă între wireframe, poligonal, solid și smooth view.
-B – începe animația de prezentare a scenei.
+## Features
 
-Implementare Tehnică
-OpenGL + GLFW pentru randare și interacțiuni.
-Blender pentru modelarea obiectelor 3D.
-GLM pentru calcule matematice și transformări.
-Shader-e pentru efecte grafice avansate.
+* **Advanced Lighting:** Directional lighting (Sun) and point lighting (lanterns, indoor lamps).
+* **Special Effects:** Dynamic fog for a realistic atmosphere.
+* **Animations:** A moving dog and an automated camera path for a guided tour.
+* **Rendering Modes:** Support for Solid, Wireframe, Polygonal, and Smooth shading.
+* **Day/Night Cycle:** Simulation of day and night transitions.
 
-Am folosit lumini direcționale și punctiforme pentru realism, un efect de ceață pentru profunzime, iar animațiile sunt controlate prin funcții specifice.
+## Controls
 
-Ce am învățat?
-Lucrul cu Blender a fost provocator, dar satisfăcător.
-Programarea OpenGL este complexă, dar foarte puternică.
-Depanarea manuală a fost grea, dar mi-a îmbunătățit abilitățile.
+| Key | Action |
+| :--- | :--- |
+| **W / S** | Move Forward / Backward |
+| **A / D** | Move Left / Right |
+| **U / I** | Move Up / Down |
+| **Q / E** | Rotate Camera |
+| **N** | Toggle Night Mode |
+| **F / G** | Increase / Decrease Fog density |
+| **1** | Toggle Point Lights |
+| **P / O / K / L** | Switch Rendering Mode (Wireframe, Polygonal, Solid, Smooth) |
+| **B** | Start Scene Presentation Animation |
 
-Îmbunătățiri viitoare
-Efecte de ploaie și vânt pentru atmosferă dinamică.
-Umbre mai realiste pentru obiecte.
-Mai multe animații pentru interacțiune sporită.
-Adăugarea de obiecte noi pentru o scenă mai complexă.
+## Technical Implementation
+
+* **OpenGL + GLFW:** Used for rendering and handling user interactions.
+* **Blender:** Used for modeling the 3D objects.
+* **GLM:** Used for mathematical calculations and transformations.
+* **Shaders:** Custom shaders implemented for advanced graphic effects.
+
+I utilized directional and point lights to achieve realism and a fog effect to add depth to the scene. The animations are controlled through specific transformation functions.
+
+## What I Learned
+* Working with Blender was challenging but highly rewarding.
+* OpenGL programming is complex but extremely powerful.
+* Manual debugging was difficult, but it significantly improved my problem-solving skills.
+
+## Future Improvements
+* Add rain and wind effects for a dynamic atmosphere.
+* Implement more realistic shadows for objects.
+* Add more animations for increased interaction.
+* Introduce new objects to make the scene more complex.
